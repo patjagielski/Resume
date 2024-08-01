@@ -11,7 +11,11 @@ const Resume = () => {
 
     return (
         <div className="m-10">
-            <h1 className="flex text-4xl pb-5 my-5 shadow-line shadow-white">About me</h1>
+            <div className="flex justify-between shadow-line shadow-white my-5 pb-4">
+                <h1 className="text-4xl">About me</h1>
+                <button className="p-3 bg-slate-700 hover:bg-slate-500 rounded-lg hover:text-pink-300">Download CV</button>
+            </div>
+            
             <div className="flex gap-4 mb-20">
                 <p className="flex self-center text-2xl w-4/5"> Born and raised in America, I finished my engineering degree in Poland, with over 4 years experience. Adept in TypeScript, React, and Angular with a solid understanding of cloud solutions and CI/CD pipelines. Passionate about enhancing UX/UI and improving web application performance. </p>
                 <img className="w-1/4 rounded-lg" src="/pic.jpg" />
