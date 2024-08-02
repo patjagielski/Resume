@@ -13,7 +13,11 @@ const Resume = () => {
         <div className="m-10">
             <div className="flex justify-between shadow-line shadow-white my-5 pb-4">
                 <h1 className="text-4xl">About me</h1>
-                <button className="p-3 bg-slate-700 hover:bg-slate-500 rounded-lg hover:text-pink-300">Download CV</button>
+                <button className="p-3 bg-slate-700 hover:bg-slate-500 rounded-lg hover:text-pink-300">  
+                    <a href="/Resume.pdf" download={"/Resume.pdf"}>
+                        Download CV 
+                    </a>
+                </button>
             </div>
             
             <div className="flex gap-4 mb-20">
