@@ -15,6 +15,7 @@ function Model({ url }: ModelProps) {
 
 function Scene() {
     const { camera, gl } = useThree();
+    // const mousePosition = useMousePosition
 
     useEffect(() => {
         camera.position.set(4, 3, 2);
