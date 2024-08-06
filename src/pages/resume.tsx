@@ -32,7 +32,7 @@ const Resume = () => {
                     <h3 className="lg:text-lg">2022 - 2024</h3>
                     <ul className="flex flex-col mx-10 list-disc">
                         <li className="lg:text-lg"> Specialized in Typescript and Javascript using React and Angular </li>
-                        <li className="lg:text-lg"> Improved launcher download speed bby 20% </li>
+                        <li className="lg:text-lg"> Improved launcher download speed by 20% </li>
                         <li className="lg:text-lg"> Reduced latency 30% enhancing user interactions </li>
                         <li className="lg:text-lg"> 15% reduction in user-reported issues post-release. </li>
                     </ul>
