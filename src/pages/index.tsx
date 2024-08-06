@@ -3,8 +3,8 @@ import SceneLoader from "@/components/Scene3D/SceneLoader";
 export default function Home() {
   return (
     <div>
-      <div className="flex flex-col px-10 py-15 ">
-        <h2 className="flex justify-center  text-4xl"> Three js Section </h2>
+      <div className="flex flex-col m-10">
+        <h2 className="flex justify-center text-xl  lg:2xl:text-4xl"> Welcome To My Portfolio! </h2>
         <SceneLoader />
       </div>
    

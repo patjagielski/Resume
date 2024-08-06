@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <>
             <Header />
-            <ul className='pb-12 flex gap-6 justify-center text-2xl '>
+            <ul className='pb-12 flex gap-6 justify-center text-xl lg:2xl:text-2xl '>
                 <li>
                     <Link className={`flex rounded-md p-4 ${pathname === "/" ? 'text-pink-500' : 'bg-transparent'} hover:bg-slate-600`} href="/">Home</Link>
                 </li>
